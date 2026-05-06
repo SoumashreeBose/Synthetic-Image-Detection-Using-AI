@@ -1,0 +1,1 @@
+# Synthetic-Image-Detection-Using-AI
