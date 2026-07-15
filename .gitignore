@@ -1,0 +1,59 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+*.egg-info/
+build/
+dist/
+
+# ── Virtual environments ───────────────────────────────
+venv/
+env/
+.venv/
+ENV/
+
+# ── Model checkpoints & training outputs ───────────────
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# ── Generated plots (regenerate via train1.py) ─────────
+training_curves.png
+evaluation_results.png
+ensemble_gradcam.png
+cross_dataset_results.png
+generalization_drop.png
+
+# ── Datasets ─────────────────────────────────────────────
+archive/
+Dataset/
+dataset/
+data/
+*.jpg
+*.jpeg
+*.png
+*.bmp
+*.webp
+# Allow curated sample/demo images to be tracked, e.g. in docs/
+!docs/**/*.png
+!docs/**/*.jpg
+!docs/**/*.jpeg
+!assets/**/*.png
+!assets/**/*.jpg
+
+# ── Gradio ───────────────────────────────────────────────
+gradio_cached_examples/
+flagged/
+
+# ── OS / editor cruft ────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
